@@ -48,89 +48,37 @@ module.exports = {
         ]
       }
     ],
-    '/views/plugins/': [
+    '/views/blog/': [
       {
-        title: '插件',
+        title: 'GitHub Actions 自动部署博客',
         collapsable: true,
         children: [
-          '',
-          'backToTop',
-          'pagation',
-          'screenfull',
-          'loadingPage',
-          'kanbanniang',
-          'comments',
-          'extractCode',
-          'rss',
-          'bgmPlayer'
+          'github-actions'
+        ]
+      },
+      {
+        title: 'GitHub Actions 时使用 secretKey',
+        collapsable: true,
+        children: [
+          'github-actions-secret-key'
+        ]
+      }
+    ],
+    '/views/idea/': [
+      {
+        title: 'IDEA使用代理的方式激活【适用20版以前的】',
+        collapsable: true,
+        children: [
+          'IDEA使用代理的方式激活'
+        ]
+      },
+      {
+        title: 'IDEA无限试用期【终极武器】',
+        collapsable: true,
+        children: [
+          'IDEA无限试用期'
         ]
       }
     ]
   })
-  // ,
-  // 'en': Object.assign({}, {
-  //   '/en/views/1.x/': [
-  //     {
-  //       title: 'Basic',
-  //       collapsable: false,
-  //       children: [
-  //         '',
-  //         'installUse',
-  //         'blog',
-  //         'frontMatter'
-  //       ]
-  //     },
-  //     {
-  //       title: 'Advanced',
-  //       collapsable: false,
-  //       children: [
-  //         'timeline',
-  //         'valine',
-  //         'password',
-  //         'configJs',
-  //         'home',
-  //         'notfound',
-  //         'mode',
-  //         'local',
-  //         'codeTheme',
-  //         'sidebar'
-  //       ]
-  //     },
-  //     {
-  //       title: 'Default Theme Config',
-  //       collapsable: false,
-  //       children: [
-  //         'abstract',
-  //         'syntax',
-  //         'customStyleAndScript'
-  //       ]
-  //     },
-  //     {
-  //       title: 'Other',
-  //       collapsable: false,
-  //       children: [
-  //         'updatetoone',
-  //         'recommend'
-  //       ]
-  //     }
-  //   ],
-  //   '/en/views/plugins/': [
-  //     {
-  //       title: 'Plugins',
-  //       collapsable: true,
-  //       children: [
-  //         '',
-  //         'backToTop',
-  //         'pagation',
-  //         'screenfull',
-  //         'loadingPage',
-  //         'kanbanniang',
-  //         'comments',
-  //         'extractCode',
-  //         'rss',
-  //         'bgmPlayer'
-  //       ]
-  //     }
-  //   ]
-  // })
 }

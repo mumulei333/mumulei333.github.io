@@ -33,32 +33,4 @@ module.exports = {
     nav: nav.zh,
     sidebar: sidebar.zh
   }
-
-  // 多语言配置
-  // ,
-  // '/en/': {
-  //   selectText: '语言',
-  //   label: 'English',
-  //   editLinkText: 'Edit this page on GitHub',
-  //   serviceWorker: {
-  //     updatePopup: {
-  //       message: "New content is available.",
-  //       buttonText: "Refresh"
-  //     }
-  //   },
-  //   algolia: {
-  //     start_urls: [
-  //       {
-  //         "url": "https://vuepress-theme-reco.recoluan.com/en/"
-  //       }
-  //     ],
-  //     apiKey: '97357e58cac743c6de62036cb152f18b',
-  //     indexName: 'vuepress-theme-reco'
-  //     // inputSelector: '### REPLACE ME ####',
-  //     // algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
-  //     // debug: false // Set debug to true if you want to inspect the dropdown
-  //   },
-  //   nav: nav.en,
-  //   sidebar: sidebar.en
-  // }
 }

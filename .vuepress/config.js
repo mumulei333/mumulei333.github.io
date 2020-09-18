@@ -3,7 +3,7 @@ const themeConfig = require('./config/theme/')
 
 module.exports = {
   // base: '/blog/',
-  // dest: 'public',
+  // dest: 'public', 默认生成路径.vuepress/dist
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 浏览器窗口icon图标
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],

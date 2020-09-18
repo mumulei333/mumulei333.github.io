@@ -5,14 +5,14 @@ module.exports = {
       items: [
         { 
           text: 'DevOps', items: [
-            { text: 'kubernetes', link: '/views/kubernetes/' },
-            { text: 'docker', link: '/views/docker/' }
+            { text: 'kubernetes', link: '/views/kubernetes/k8s环境搭建.html' },
+            { text: 'docker', link: '/views/docker/Ubuntu安装docker.html' }
           ],
         },
         {
           text: '其他', items: [
-            { text: '博客', link: '/views/blog/' },
-            { text: 'IDEA', link: '/views/idea/' }
+            { text: '博客', link: '/views/blog/github-actions.html' },
+            { text: 'IDEA', link: '/views/idea/IDEA使用代理的方式激活.html' }
           ]
         }
       ]

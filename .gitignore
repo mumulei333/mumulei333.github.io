@@ -1,7 +1,0 @@
-.idea
-node_modules/
-yarn-error.log
-yarn.lock
-docs/.vuepress/theme
-package-lock.json
-.DS_Store

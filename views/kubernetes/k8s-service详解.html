@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>k8s-service详解 | MUMU</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icon_vuepress_reco.png">
+    <link rel="mask-icon" href="/icon_vuepress_reco.svg" color="#42b983">
+    <meta name="description" content="人生的路途，只有不断的回顾和总结才会继续走下去">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="author" content="reco_luan">
+    <meta name="keywords" content="vuepress,reco,reco_luan,vuepress-reco,vuepress-theme-reco,theme,blog,主题">
+    <meta name="theme-color" content="#42b983">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icon_vuepress_reco.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/assets/css/0.styles.022c2da7.css" as="style"><link rel="preload" href="/assets/js/app.28a0c3a5.js" as="script"><link rel="preload" href="/assets/js/6.a7729020.js" as="script"><link rel="preload" href="/assets/js/1.a140cc86.js" as="script"><link rel="preload" href="/assets/js/30.dfcab6d9.js" as="script"><link rel="preload" href="/assets/js/17.d6eee69f.js" as="script"><link rel="prefetch" href="/assets/js/10.6684bcab.js"><link rel="prefetch" href="/assets/js/11.c2403b2e.js"><link rel="prefetch" href="/assets/js/12.b8206a8b.js"><link rel="prefetch" href="/assets/js/13.6822f171.js"><link rel="prefetch" href="/assets/js/14.195d445a.js"><link rel="prefetch" href="/assets/js/15.19b757a5.js"><link rel="prefetch" href="/assets/js/16.7770d159.js"><link rel="prefetch" href="/assets/js/18.9d0f38c7.js"><link rel="prefetch" href="/assets/js/19.99063d74.js"><link rel="prefetch" href="/assets/js/2.2b809728.js"><link rel="prefetch" href="/assets/js/20.772255e7.js"><link rel="prefetch" href="/assets/js/21.d3fc02fb.js"><link rel="prefetch" href="/assets/js/22.9a38c30a.js"><link rel="prefetch" href="/assets/js/23.8d23bfc3.js"><link rel="prefetch" href="/assets/js/24.50be9650.js"><link rel="prefetch" href="/assets/js/25.02747c18.js"><link rel="prefetch" href="/assets/js/26.716a8a9b.js"><link rel="prefetch" href="/assets/js/27.711dbb5d.js"><link rel="prefetch" href="/assets/js/28.d852621a.js"><link rel="prefetch" href="/assets/js/29.216ff3fc.js"><link rel="prefetch" href="/assets/js/31.f09ead1f.js"><link rel="prefetch" href="/assets/js/32.3d5e940d.js"><link rel="prefetch" href="/assets/js/33.c380f517.js"><link rel="prefetch" href="/assets/js/34.0cb785f6.js"><link rel="prefetch" href="/assets/js/35.92771b07.js"><link rel="prefetch" href="/assets/js/36.9aff34ea.js"><link rel="prefetch" href="/assets/js/37.427e803c.js"><link rel="prefetch" href="/assets/js/38.f526a462.js"><link rel="prefetch" href="/assets/js/39.708299f3.js"><link rel="prefetch" href="/assets/js/40.ace3cae5.js"><link rel="prefetch" href="/assets/js/41.e30fdb54.js"><link rel="prefetch" href="/assets/js/42.f681a460.js"><link rel="prefetch" href="/assets/js/43.449b73bd.js"><link rel="prefetch" href="/assets/js/44.5d18e48c.js"><link rel="prefetch" href="/assets/js/45.092a7700.js"><link rel="prefetch" href="/assets/js/46.fc20f6fb.js"><link rel="prefetch" href="/assets/js/47.ee038197.js"><link rel="prefetch" href="/assets/js/48.7ac8b830.js"><link rel="prefetch" href="/assets/js/7.08e4e7f4.js"><link rel="prefetch" href="/assets/js/8.a3a7cd3b.js"><link rel="prefetch" href="/assets/js/9.58725af0.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.873febc0.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.dd8599e2.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.022c2da7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-dad8a512><div data-v-dad8a512><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-dad8a512 data-v-dad8a512><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-dad8a512 data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>MUMU</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>MUMU</span>
+            
+          <span data-v-64685f0e>2018 - </span>
+          2020
+        </a></span></div></div> <div class="hide" data-v-dad8a512><header class="navbar" data-v-dad8a512><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/favicon.ico" alt="MUMU" class="logo"> <span class="site-name">MUMU</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <form id="search-form" role="search" class="algolia-search-wrapper search-box"><i class="iconfont reco-search"></i> <input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      推荐
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>DevOps</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/views/kubernetes/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  kubernetes
+</a></li><li class="dropdown-subitem"><a href="/views/docker/" class="nav-link"><i class="iconfont undefined"></i>
+  docker
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/views/blog/" class="nav-link"><i class="iconfont undefined"></i>
+  博客
+</a></li><li class="dropdown-subitem"><a href="/views/idea/" class="nav-link"><i class="iconfont undefined"></i>
+  IDEA
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/学习/" class="nav-link"><i class="iconfont undefined"></i>
+  学习
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活/" class="nav-link"><i class="iconfont undefined"></i>
+  生活
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/?mumu.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div> <a href="https://github.com/mumulei333/mumulei333.github.io" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask" data-v-dad8a512></div> <aside class="sidebar" data-v-dad8a512><div class="personal-info-wrapper" data-v-ca798c94 data-v-dad8a512><img src="/mumu_head.jpg" alt="author-avatar" class="personal-img" data-v-ca798c94> <h3 class="name" data-v-ca798c94>
+    MUMU
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>27</h3> <h6 data-v-ca798c94>文章</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>30</h3> <h6 data-v-ca798c94>标签</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      推荐
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>DevOps</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/views/kubernetes/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  kubernetes
+</a></li><li class="dropdown-subitem"><a href="/views/docker/" class="nav-link"><i class="iconfont undefined"></i>
+  docker
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/views/blog/" class="nav-link"><i class="iconfont undefined"></i>
+  博客
+</a></li><li class="dropdown-subitem"><a href="/views/idea/" class="nav-link"><i class="iconfont undefined"></i>
+  IDEA
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/学习/" class="nav-link"><i class="iconfont undefined"></i>
+  学习
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活/" class="nav-link"><i class="iconfont undefined"></i>
+  生活
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/?mumu.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div> <a href="https://github.com/mumulei333/mumulei333.github.io" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>环境搭建</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/kubernetes/k8s环境搭建.html" class="sidebar-link">k8s环境搭建</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>实践讲解</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/kubernetes/k8s-deployment详解.html" class="sidebar-link">k8s-service详解</a></li><li><a href="/views/kubernetes/k8s-service详解.html" class="active sidebar-link">k8s-service详解</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>插件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/kubernetes/k8s部署Dashboard.html" class="sidebar-link">k8s部署Dashboard</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>k8s-service详解</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>MUMU</span>
+            
+          <span data-v-64685f0e>2018 - </span>
+          2020
+        </a></span></div></div> <div data-v-dad8a512><main class="page"><div class="page-title" style="display:none;"><h1>k8s-service详解</h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>MUMU</span></i> <i class="iconfont reco-date" data-v-3b7f5bdf><span data-v-3b7f5bdf>2020-09-09</span></i> <i class="iconfont reco-eye" data-v-3b7f5bdf><span id="/views/kubernetes/k8s-service%E8%AF%A6%E8%A7%A3.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-3b7f5bdf><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-3b7f5bdf><span class="tag-item" data-v-3b7f5bdf>Devops</span><span class="tag-item" data-v-3b7f5bdf>k8s</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><h2 id="_1-service-设计理念"><a href="#_1-service-设计理念" class="header-anchor">#</a> 1.Service 设计理念</h2> <blockquote><p>​		service这个概念存在的意义重要，首先由于重新调度等原因，pod在kubernetes中的ip地址不是固定的，因此需要一个代理来确保需要使用的pod的应用不需要知晓pod的真实IP地址。还有一个原因是当使用replication controller创建了多个pod的副本时，需要一个代理来为这些pod做负载均衡。service这个名称的含义其实挺能引起误解的，或许改为proxy或者router更为贴切。</p> <p>​		service主要由一个IP地址和一个label selector组成。在创建之初，每个service便被分配了一个独一无二的IP地址，该IP地址与serivce的生命周期相同且不再更改(pod IP地址与此不同，会随着pod的生命周期产生和消亡)。</p></blockquote> <h2 id="_2-nginx-deployment-创建"><a href="#_2-nginx-deployment-创建" class="header-anchor">#</a> 2.nginx-deployment 创建</h2> <p>因为service只是用来负责代理和转发的，所以这边需要先定义一个转发对象。</p> <h3 id="定义nginx-deployment-yaml"><a href="#定义nginx-deployment-yaml" class="header-anchor">#</a> 定义nginx-deployment.yaml</h3> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1 <span class="token comment"># 1.9.0前使用 apps/v1beta2</span>
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Deployment
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">2</span> <span class="token comment"># 副本数</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx<span class="token punctuation">:</span>1.7.9
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+</code></pre></div><h3 id="部署nginx-deployment"><a href="#部署nginx-deployment" class="header-anchor">#</a> 部署nginx-deployment</h3> <div class="language-sh extra-class"><pre class="language-sh"><code>kubectl apply -f nginx-deployment.yaml
+</code></pre></div><h2 id="_3-nginx-service-创建"><a href="#_3-nginx-service-创建" class="header-anchor">#</a> 3.nginx-service 创建</h2> <p>service 通常分为3种类型，分别为ClusterIP，NodePort和LoadBalancer。其中ClusterIP是最基本的类型，即在默认情况下只能在集群内部进行访问；另外两种则与实现从集群外部路由有着密不可分的联系。</p> <h3 id="clusterip"><a href="#clusterip" class="header-anchor">#</a> ClusterIP</h3> <p>集群内部IP，只供内部集群调用</p> <p>可以通过访问 service名称.命名空间(同命名空间可参略):servicePort</p> <p>示例：<code>nginx-service.my-namespace:8080</code></p> <h4 id="定义nginx-service-yaml"><a href="#定义nginx-service-yaml" class="header-anchor">#</a> 定义nginx-service.yaml</h4> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Service
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>service
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> ClusterIP
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span> <span class="token comment"># 标签选择器，通过标签匹配关联的pod</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx
+  <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">8080</span> <span class="token comment"># 指定service端口</span>
+      <span class="token key atrule">targetPort</span><span class="token punctuation">:</span> <span class="token number">80</span> <span class="token comment"># 容器端口，转发到对应Pod容器端口</span>
+      <span class="token key atrule">protocol</span><span class="token punctuation">:</span> TCP <span class="token comment"># service使用协议 默认TCP</span>
+</code></pre></div><h4 id="部署nginx-service"><a href="#部署nginx-service" class="header-anchor">#</a> 部署nginx-service</h4> <div class="language-shell extra-class"><pre class="language-shell"><code>kubectl apply -f nginx-service.yaml
+</code></pre></div><h3 id="nodeport"><a href="#nodeport" class="header-anchor">#</a> NodePort</h3> <p>集群内部IP，对外开放可直接访问</p> <p>可以通过访问 集群NodeIP:serviceNodePort</p> <p>示例：<code>192.168.199.151:30080</code></p> <h4 id="定义nginx-nodeport-service-yaml"><a href="#定义nginx-nodeport-service-yaml" class="header-anchor">#</a> 定义nginx-nodeport-service.yaml</h4> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Service
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>nodeport
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> NodePort
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span> <span class="token comment"># 标签选择器，通过标签匹配关联的pod</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx
+  <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">8080</span> <span class="token comment"># 转发到机器内部service端口</span>
+      <span class="token key atrule">nodePort</span><span class="token punctuation">:</span> <span class="token number">30080</span> <span class="token comment"># 节点端口</span>
+</code></pre></div><h4 id="部署nginx-nodeport-service"><a href="#部署nginx-nodeport-service" class="header-anchor">#</a> 部署nginx-nodeport-service</h4> <div class="language-shell extra-class"><pre class="language-shell"><code>kubectl apply -f nginx-nodeport-service.yaml
+</code></pre></div><h3 id="查看service"><a href="#查看service" class="header-anchor">#</a> 查看service</h3> <p>前面部署的yaml时没有指明是部署到那个命名空间中的，所以默认部署到了default中，查询的时候可以直接不写命名空间</p> <div class="language-shell extra-class"><pre class="language-shell"><code>kubectl get <span class="token function">service</span> 
+</code></pre></div><p>如果指定了部署的命名空间</p> <div class="language-shell extra-class"><pre class="language-shell"><code>kubectl get <span class="token function">service</span> -n my-namespace
+</code></pre></div></div> <footer class="page-edit" style="display:none;"><div class="edit-link"><a href="https://github.com/mumulei333/mumulei333.github.io/edit/gh-pages/docs/views/kubernetes/k8s-service详解.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">9/18/2020, 11:19:10 AM</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><!----></div></div>
+    <script src="/assets/js/app.28a0c3a5.js" defer></script><script src="/assets/js/6.a7729020.js" defer></script><script src="/assets/js/1.a140cc86.js" defer></script><script src="/assets/js/30.dfcab6d9.js" defer></script><script src="/assets/js/17.d6eee69f.js" defer></script>
+  </body>
+</html>

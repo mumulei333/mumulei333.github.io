@@ -1,5 +1,5 @@
 ---
-title:      k8s-service详解
+title:      k8s-deployment详解
 date:       2020-09-09
 isShowComments: true
 

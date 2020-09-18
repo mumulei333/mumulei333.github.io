@@ -62,7 +62,7 @@ module.exports = {
   // 假如文档不是放在仓库的根目录下：
   docsDir: 'docs',
   // 假如文档放在一个特定的分支下：
-  docsBranch: 'gh-pages-source',
+  docsBranch: 'gh-pages',
   // 默认是 false, 设置为 true 来启用
   editLinks: true,
   // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式

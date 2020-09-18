@@ -1,0 +1,32 @@
+name: Build and Deploy
+
+# 触发条件：在 push 到 master 分支后
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        env:
+          VALINE_ID: ${{ secrets.VALINE_ID }}
+          VALINE_KEY: ${{ secrets.VALINE_KEY }}
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.6.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages # 要把生成的文件部署到那个分支上去
+          FOLDER: .vuepress/dist # 这里填写的是需要部署的文件，而不是生成的文件(生成的文件路径由config.js中的dest属性来控制，如果不填默认就是.vuepress/dist)
+          # CLEAN: true # Automatically remove deleted files from the deploy branch

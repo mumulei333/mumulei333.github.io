@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "58b106c04185409be39417e134068226"
+    "revision": "e5756a5ea4069124f2e289c453a79e42"
   },
   {
     "url": "assets/css/0.styles.022c2da7.css",
@@ -234,8 +234,8 @@ self.__precacheManifest = [
     "revision": "a930d058bc3b9ec49611fddcbcc67b14"
   },
   {
-    "url": "assets/js/app.05802f9a.js",
-    "revision": "c972c55e31a89d47e595b012ee43056f"
+    "url": "assets/js/app.a13aad33.js",
+    "revision": "228a256c3650638632a5575b0a1757c4"
   },
   {
     "url": "assets/js/vendors~docsearch.873febc0.js",
@@ -251,23 +251,23 @@ self.__precacheManifest = [
   },
   {
     "url": "categories/index.html",
-    "revision": "09cf2183d3ceeaf51ae4fa84e882e6f0"
+    "revision": "d180f5e4c13a582137f83b1a65055006"
   },
   {
     "url": "categories/学习/index.html",
-    "revision": "e58d2f7c363ba8a774b96eb316b42ae1"
+    "revision": "89451f32e046d866a4a1ecb13f83043f"
   },
   {
     "url": "categories/学习/page/2/index.html",
-    "revision": "cc95689cfff35d3c74ebc84a3ba6ce51"
+    "revision": "e1b901cf35b4518265745456b752d140"
   },
   {
     "url": "categories/学习/page/3/index.html",
-    "revision": "6334d092db38b4613752a8b3ffa938bd"
+    "revision": "08b10a98aa7b252f41d23b3dbc47c530"
   },
   {
     "url": "categories/生活/index.html",
-    "revision": "e924cea8863d6d7aff1215fefd0e1e68"
+    "revision": "45d18cb75d45121367e54fa685a2d07c"
   },
   {
     "url": "googleea31ca71997d7a22.html",
@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "13e7ad67f72111dfe1c223def70b8a41"
+    "revision": "3b73572f7b877824c1f651b646318da3"
   },
   {
     "url": "mumu_head.jpg",
@@ -295,239 +295,239 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/blog/index.html",
-    "revision": "575faf6e29b8f24e5f607f8b9fae7e6b"
+    "revision": "c3923747cb99f90b8b90d25c99fdc190"
   },
   {
     "url": "tag/Dashboard/index.html",
-    "revision": "3000e898cc772825df98480bd37bfa0b"
+    "revision": "245df9423ba9f9deab6bc61694dc7483"
   },
   {
     "url": "tag/Devops/index.html",
-    "revision": "e9676d5630da2db9046764c6c4e7ee9f"
+    "revision": "49a1333980ad13d4d67ca3424e3911d0"
   },
   {
     "url": "tag/Docker/index.html",
-    "revision": "bca7919cae178f2c5510f557f3639e7c"
+    "revision": "f8f0ab8b376227a2932f14e76c3885a3"
   },
   {
     "url": "tag/Frp/index.html",
-    "revision": "d9922f076dbf51d38d588f628d3c69d9"
+    "revision": "4759b9d525f1e7c214acc84e2baa6a51"
   },
   {
     "url": "tag/Git/index.html",
-    "revision": "c58a9c793b3357bd8de3e81056b1e4ea"
+    "revision": "d92af2a404f0fc6666c9fc7c1be9f011"
   },
   {
     "url": "tag/Github Actions/index.html",
-    "revision": "7d140c69d5f6a1a6907ec862714e6ae9"
+    "revision": "bd20100c4c5951c8c2e50f15542b10a6"
   },
   {
     "url": "tag/Github/index.html",
-    "revision": "dd918839ad262d3e46158202dee9d97b"
+    "revision": "ff9f707ef11cae1dcc539eff5366731d"
   },
   {
     "url": "tag/Harbor/index.html",
-    "revision": "acf92ae7beebf81117c4736ae179c6d3"
+    "revision": "6b546d2363da4a5886f3d4307d109cc4"
   },
   {
     "url": "tag/IDEA/index.html",
-    "revision": "3d0c04ea9fa52ee9c5bdf61113a196e9"
+    "revision": "44ad93c1657a1ea9af88ba6e93436373"
   },
   {
     "url": "tag/index.html",
-    "revision": "57a85de3cd6456718ce52a530e291084"
+    "revision": "d4fcd7b881ebc1157b01e8fe75507465"
   },
   {
     "url": "tag/Jenkins/index.html",
-    "revision": "fbd50d34b74db4f7a817ab91b15a765c"
+    "revision": "1504664f04daeb9fbeb82f6064c05ffa"
   },
   {
     "url": "tag/k8s/index.html",
-    "revision": "adfe1559bfe684f9256906574723256e"
+    "revision": "17fc4150a4b5f212be9a6d2d74a1a831"
   },
   {
     "url": "tag/Mac/index.html",
-    "revision": "b0b120840ae7480d6e16d21499f31c59"
+    "revision": "daca4efa7664ddc0505e8b40819a0e17"
   },
   {
     "url": "tag/MongoDB/index.html",
-    "revision": "f9cfd41b9bd966772c53f6c3ce522e9c"
+    "revision": "e1addd9e00123c6d7ff89a51a307ae59"
   },
   {
     "url": "tag/Mysql/index.html",
-    "revision": "1db85fbda24c7d76fb7b51c4635030c5"
+    "revision": "28f1d7088ba3a72fb3bd674116364015"
   },
   {
     "url": "tag/Openssl/index.html",
-    "revision": "a35dbf7add7aaaefd425ce75e9b23aa9"
+    "revision": "6047c086aaccfd246ac0e4de2d3b1483"
   },
   {
     "url": "tag/RabbitMq/index.html",
-    "revision": "b157dafeb702771a36e56a3f7950083b"
+    "revision": "4accf1c2d0ebc8a7f5431fe3bf23e577"
   },
   {
     "url": "tag/Redis/index.html",
-    "revision": "e529a17f84dc67170a8a8860682aeeca"
+    "revision": "082238edd756f3ecf3cf1e85deb54fe9"
   },
   {
     "url": "tag/Secret Key/index.html",
-    "revision": "bb8d7c71fa64c95db720c01937a5ba63"
+    "revision": "d7608b03caabce60987b98ce55e1e704"
   },
   {
     "url": "tag/SSL证书/index.html",
-    "revision": "e1bf0235b790dc81bd5cf5d0a6421ee9"
+    "revision": "06792daff5d9aad41295de97ff7c3f48"
   },
   {
     "url": "tag/Ubuntu/index.html",
-    "revision": "2333c12c41a6229ea3f1ce190d2b8510"
+    "revision": "28abc99e903f0d681f42ffc6aaa8d6ed"
   },
   {
     "url": "tag/VuePress/index.html",
-    "revision": "facb3cb751960c54ea6b0c25950d732d"
+    "revision": "2dea9d4b9e9896c005d58af9a6c4a250"
   },
   {
     "url": "tag/开发技巧/index.html",
-    "revision": "7d8b8ab2ead1064939084229a733a5d9"
+    "revision": "6587a3995a4edd1042b0047f693f9c30"
   },
   {
     "url": "tag/效率/index.html",
-    "revision": "18ade34fa0e6d55a09afd2ab0d6e72bc"
+    "revision": "72d2982901a9f947ffa2c33f62667437"
   },
   {
     "url": "tag/数据库/index.html",
-    "revision": "d6c2298df6e223d3673c2f6214f1e60f"
+    "revision": "7bba950a8e7c02fa071b31feb4c18ff6"
   },
   {
     "url": "tag/无聊/index.html",
-    "revision": "ee237d044948acc4701396ddbd154320"
+    "revision": "3f3707b4792bf4fb2058886aa338df68"
   },
   {
     "url": "tag/消息中间件/index.html",
-    "revision": "24f0fb78ce862cb6a8125ec127fcde28"
+    "revision": "eb47b021b73145ccdcfe47028def40f7"
   },
   {
     "url": "tag/疑难杂症/index.html",
-    "revision": "1b2c2dad3020d5098f38abbea227c019"
+    "revision": "82ebc46b6f766d06421383961593ee51"
   },
   {
     "url": "tag/终端/index.html",
-    "revision": "288db29cc3d16c811ad7aed183611c9c"
+    "revision": "29fdc82a6b371b1454f41ffd22d5ac0b"
   },
   {
     "url": "tag/网络/index.html",
-    "revision": "93e342c8333341bbe4796b68cb339098"
+    "revision": "14b9e543646b4fcc3a2146e67d3e1bd9"
   },
   {
     "url": "timeline/index.html",
-    "revision": "30f671829e31d711f0b4681254a7d120"
+    "revision": "85c11b53d215454f707f479645a48f9b"
   },
   {
     "url": "views/blog/github-actions-secret-key.html",
-    "revision": "f75044167311edb06c078aeb1b174c16"
+    "revision": "1617f82177aebe4ea8f792e90b5f8a66"
   },
   {
     "url": "views/blog/github-actions.html",
-    "revision": "3a7d9036c0e8a7966fc2453649439459"
+    "revision": "c176fc4a84a3a8e8d5d35d642baadabf"
   },
   {
     "url": "views/docker/Ubuntu安装docker.html",
-    "revision": "bc82fe7372e861d55ce2cd9722290729"
+    "revision": "0e1d5c2db558b749340df32644d4459e"
   },
   {
     "url": "views/docker/数据库服务搭建容器化.html",
-    "revision": "d60cb335b66f015cbba058a1edde1b47"
+    "revision": "edbffef9526e6f17288d55e68bc9a5e0"
   },
   {
     "url": "views/docker/镜像仓库harbor搭建.html",
-    "revision": "63fe53de4549f3298cca7126298d63e4"
+    "revision": "72d9df63427cb5f4d585880f22be3b7a"
   },
   {
     "url": "views/idea/IDEA使用代理的方式激活.html",
-    "revision": "c812dae0f40d1f1aaae2e78bf4e10913"
+    "revision": "5e00e2bfc7527b700432ac9ba7bd2fb7"
   },
   {
     "url": "views/idea/IDEA无限试用期.html",
-    "revision": "347b9b443bb781b794f300e8a89c41b7"
+    "revision": "85146fe65f530461ff021a0b4e24305b"
   },
   {
     "url": "views/kubernetes/k8s-deployment详解.html",
-    "revision": "05258df17de32aae533a3f718e77f83d"
+    "revision": "ec5e31b376196140c895f299f3c6b6ae"
   },
   {
     "url": "views/kubernetes/k8s-service详解.html",
-    "revision": "74a94f86b2f73409a79e86a9916be843"
+    "revision": "43abb941853dc007ad326e7449855016"
   },
   {
     "url": "views/kubernetes/k8s环境搭建.html",
-    "revision": "a9fe475b4cea2b0eb0cf8a44b10f0175"
+    "revision": "6d2c1d80405dd6d8c7bcc56238f11b0f"
   },
   {
     "url": "views/kubernetes/k8s部署Dashboard.html",
-    "revision": "9616c02a5483ca6a820cfaa437262c0a"
+    "revision": "97d102335f9d5ecc066857cdee9cded0"
   },
   {
     "url": "views/other/frp实现内网穿透.html",
-    "revision": "df40c938ea1ecaa003bcb9fe6c7afffb"
+    "revision": "1d2141cb2591710f01d0343ffbfd5d11"
   },
   {
     "url": "views/other/Git-代码回滚.html",
-    "revision": "a79c417f8384db5be808f4b68dab4e5e"
+    "revision": "e0a7d0ce93fdf9cd3e7daed14d26dfc4"
   },
   {
     "url": "views/other/Git指令整理.html",
-    "revision": "3af0ee7f765fa0a0178846e5f402cd51"
+    "revision": "42cc8425c343401b7ad30b7f4ae82728"
   },
   {
     "url": "views/other/Jenkins搭建容器化.html",
-    "revision": "2216cae4209048b24804b0a6054898cf"
+    "revision": "734fc23dd74d4700e6bc5d93547b51bd"
   },
   {
     "url": "views/other/Mac便捷指令.html",
-    "revision": "3f4f1ee9a49cda12b344f8d484bed98a"
+    "revision": "8dd98009052007cd50a08f45795f0341"
   },
   {
     "url": "views/other/openssl生成自签名证书.html",
-    "revision": "211af8ae316c5f4dca4d2ab93c664a73"
+    "revision": "3bd23f37d827e396703c334e89700df8"
   },
   {
     "url": "views/other/Ubuntu固定内网IP.html",
-    "revision": "5ec09cc13947d0cbe8522503f7c1eea9"
+    "revision": "61f02462d9bc5706a62a8b2491dbedff"
   },
   {
     "url": "views/other/Ubuntu安装Jenkins.html",
-    "revision": "cd8ce8eca71480739ae3bb46f8fbd6c9"
+    "revision": "2d24b77183d0341158443a048d63afef"
   },
   {
     "url": "views/other/Ubuntu安装MongoDB.html",
-    "revision": "15e068c8a3a02e8bfde336b44210f06c"
+    "revision": "84ebcf90baa3c34343e59eb2213ef1a8"
   },
   {
     "url": "views/other/Ubuntu安装Mysql.html",
-    "revision": "b0ca081889abfd7b1d13b8f144579c1f"
+    "revision": "4fdadeb985c5e868358fe1c9711d10a1"
   },
   {
     "url": "views/other/Ubuntu安装RabbitMq.html",
-    "revision": "a2b13121c680ae0719661a023918c7b5"
+    "revision": "14708c7d497a66141bdf3d8c3e7686bf"
   },
   {
     "url": "views/other/Ubuntu安装Redis.html",
-    "revision": "9f53536f0d629472e34ac495f493b815"
+    "revision": "08a427eceddec4925fcd9d85b5fd983f"
   },
   {
     "url": "views/other/使用-.gitignore-忽略-git-仓库中的文件.html",
-    "revision": "1a93b6b4bb22a4f8592686c35e2593fc"
+    "revision": "96e33f691f77ebaa153dabf0b6ad3e30"
   },
   {
     "url": "views/other/文件目录树状(tree)显示.html",
-    "revision": "95e492a5ebc46501305854ef6843b7ea"
+    "revision": "03c1dafaed13db399e37ffb1ac96439c"
   },
   {
     "url": "views/other/生活.html",
-    "revision": "d6ac9b15bb57eb3ec07ec3159c3ec9f3"
+    "revision": "d507e8bb80ea944d27a05e86069c7d17"
   },
   {
     "url": "views/other/记录一次jenkins构建是失败案例.html",
-    "revision": "94df9d219992bcf50d92bf8d166274a5"
+    "revision": "dd756b322e90d0b909e673f92b2c4335"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

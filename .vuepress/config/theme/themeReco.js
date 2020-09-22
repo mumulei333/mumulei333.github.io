@@ -1,8 +1,11 @@
 module.exports = {
+  // 主页风格
   type: 'blog',
+  // 页面ico
   logo: '/favicon.ico',
   // 搜索设置
   search: true,
+  // 搜索出来的最大文章数
   searchMaxSuggestions: 10,
   // 自动形成侧边导航
   sidebar: 'auto',
@@ -10,6 +13,7 @@ module.exports = {
   lastUpdated: 'Last Updated', // string | boolean
   // 作者
   author: 'MUMU',
+  // 作者头像
   authorAvatar: '/mumu_head.jpg',
   // 备案号
   // record: '京ICP备17067634号-1',
@@ -26,6 +30,7 @@ module.exports = {
       text: '标签'      // 默认文案 “标签”
     }
   },
+  // 友情链接
   friendLink: [
     {
       title: 'linkji',
@@ -69,6 +74,6 @@ module.exports = {
   mode: 'auto',
   // 默认 true，false 不显示模式调节按钮，true 则显示
   modePicker: true,
-  //
+  // 风格
   codeTheme: 'okaidia'
 }

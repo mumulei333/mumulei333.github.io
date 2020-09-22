@@ -5,7 +5,8 @@ module.exports = {
   // base: '/blog/',
   // dest: 'public', 默认生成路径.vuepress/dist
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }], // 浏览器窗口icon图标
+    // 浏览器窗口icon图标
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['meta', { name: 'author', content: 'reco_luan' }],
     ['meta', { name: 'keywords', content: 'vuepress,reco,reco_luan,vuepress-reco,vuepress-theme-reco,theme,blog,主题' }],
@@ -18,8 +19,11 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icon_vuepress_reco.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
+  // 设置vuepress自定义主题
   theme: 'reco',
+  // 风格配置
   themeConfig,
+  // 首页配置
   locales: {
     '/': {
       lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
@@ -27,9 +31,12 @@ module.exports = {
       description: '人生的路途，只有不断的回顾和总结才会继续走下去'
     }
   },
+  // markdown配置
   markdown: {
     // lineNumbers: true
   },
+
+  // 插件
   plugins: [
     [
       '@vuepress/pwa', 
@@ -41,14 +48,12 @@ module.exports = {
         }
       }
     ],
-
     [
       '@vuepress/google-analytics',
       {
         ga: 'UA-149716079-2'
       }
     ],
-
     [
       '@vuepress/plugin-register-components',
       {
@@ -61,7 +66,6 @@ module.exports = {
         componentsDir: path.resolve(__dirname, './demo')
       }
     ],
-
     '@vuepress-reco/extract-code',
     'flowchart',
     ['sitemap', {

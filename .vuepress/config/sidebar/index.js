@@ -47,23 +47,25 @@ module.exports = {
           '镜像仓库harbor搭建'
         ]
       }
-    ],
-    '/views/blog/': [
-      {
-        title: 'GitHub Actions 自动部署博客',
-        collapsable: true,
-        children: [
-          'github-actions'
-        ]
-      },
-      {
-        title: 'GitHub Actions 时使用 secretKey',
-        collapsable: true,
-        children: [
-          'github-actions-secret-key'
-        ]
-      }
-    ],
+    ]
+    // ,
+    // '/views/blog/': [
+    //   {
+    //     title: 'GitHub Actions 自动部署博客',
+    //     collapsable: true,
+    //     children: [
+    //       'github-actions'
+    //     ]
+    //   },
+    //   {
+    //     title: 'GitHub Actions 时使用 secretKey',
+    //     collapsable: true,
+    //     children: [
+    //       'github-actions-secret-key'
+    //     ]
+    //   }
+    // ]
+    ,
     '/views/idea/': [
       {
         title: 'IDEA使用代理的方式激活【适用20版以前的】',

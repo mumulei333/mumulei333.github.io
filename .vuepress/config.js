@@ -21,7 +21,7 @@ module.exports = {
   ],
   // 设置vuepress自定义主题
   theme: 'reco',
-  // 风格配置
+  // 主题风格
   themeConfig,
   // 首页配置
   locales: {

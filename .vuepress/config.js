@@ -8,8 +8,8 @@ module.exports = {
     // 浏览器窗口icon图标
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-    ['meta', { name: 'author', content: 'reco_luan' }],
-    ['meta', { name: 'keywords', content: 'vuepress,reco,reco_luan,vuepress-reco,vuepress-theme-reco,theme,blog,主题' }],
+    ['meta', { name: 'author', content: 'MUMU' }],
+    ['meta', { name: 'keywords', content: 'vuepress,k8s,docker,java,容器,MUMU,mumulei,blog' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#42b983' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -38,25 +38,22 @@ module.exports = {
 
   // 插件
   plugins: [
-    [
-      '@vuepress/pwa', 
-      {
+    '@vuepress-reco/extract-code',
+    'flowchart',
+
+    ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: {
           message: "发现新内容可用",
           buttonText: "刷新"
         }
-      }
-    ],
-    [
-      '@vuepress/google-analytics',
-      {
+    }],
+
+    ['@vuepress/google-analytics',{
         ga: 'UA-149716079-2'
-      }
-    ],
-    [
-      '@vuepress/plugin-register-components',
-      {
+    }],
+
+    ['@vuepress/plugin-register-components',{
         components: [
           {
             name: 'reco-home-page-one',
@@ -64,13 +61,12 @@ module.exports = {
           }
         ],
         componentsDir: path.resolve(__dirname, './demo')
-      }
-    ],
-    '@vuepress-reco/extract-code',
-    'flowchart',
+    }],
+
     ['sitemap', {
       hostname: 'https://vuepress-theme-reco.recoluan.com'
     }],
+
     ['@vuepress-reco/rss', {
       site_url: 'https://vuepress-theme-reco.recoluan.com',
       copyright: ''

@@ -45,12 +45,6 @@ module.exports = {
     },
   ],
 
-  // 搜索
-  algolia: {
-    apiKey: '97357e58cac743c6de62036cb152f18b',
-    indexName: 'vuepress-theme-reco'
-  },
-
   // valine 评论以及浏览量
   valineConfig: {
     appId: process.env.VALINE_ID,

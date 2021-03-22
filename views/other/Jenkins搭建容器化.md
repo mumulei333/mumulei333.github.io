@@ -31,6 +31,7 @@ sudo docker run -d \
 -v /data/jenkins:/var/jenkins_home \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -v $(which docker):/usr/bin/docker \
+-v /root/.docker:/root/.docker \
 -v /etc/sysconfig/docker:/etc/sysconfig/docker \
 -v /usr/bin/docker-current:/usr/bin/docker-current \
 -v /usr/lib/x86_64-linux-gnu/libltdl.so.7:/usr/lib/x86_64-linux-gnu/libltdl.so.7 \
@@ -53,6 +54,18 @@ sudo docker logs -f --tail 100 jenkins
 sudo cat /data/jenkins/secrets/initialAdminPassword
 ```
 
+
+
+### 常用插件
+
+- nodejs
+- git
+- gradle
+- theme
+- pipeline
+
+
+
 ### 问题记录
 
 #### 初始化时一直卡在选择默认插件界面，提示链接超时
@@ -65,11 +78,9 @@ sudo cat /data/jenkins/secrets/initialAdminPassword
 
 - [ ]  Lightweight checkout   
 
-### 常用插件
+#### jenkins安装node并在shell中使用
 
-- nodejs
-- git
-- gradle
-- theme
-- pipeline
+[jenkins安装node并在shell中使用](https://www.jianshu.com/p/0a865a321d78)
+
+
 

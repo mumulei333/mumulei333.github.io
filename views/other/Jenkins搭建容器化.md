@@ -80,7 +80,13 @@ sudo cat /data/jenkins/secrets/initialAdminPassword
 
 #### jenkins安装node并在shell中使用
 
-[jenkins安装node并在shell中使用](https://www.jianshu.com/p/0a865a321d78)
+##### 1. 下载nodejs插件并在全局工具配置中(Global Tool Configuration)配置nodejs版本
+
+##### 2. 在构建流水线中的`构建环境`勾选 `Provide Node & npm bin/folder to PATH`
+
+##### 3. 在需要执行shell使用nodejs相关语句
+
+[问题详细可查看该文章](https://www.jianshu.com/p/0a865a321d78)
 
 
 

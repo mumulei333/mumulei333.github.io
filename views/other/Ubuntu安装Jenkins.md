@@ -10,7 +10,7 @@ tags:
  - Ubuntu
  
 categories:
-  - 学习
+  - 记录
 ---
 
 # **Ubuntu 安装Jenkins**

@@ -8,7 +8,7 @@ tags:
  - k8s
  
 categories:
- - 学习
+  - 记录
 ---
 
 ### 概念

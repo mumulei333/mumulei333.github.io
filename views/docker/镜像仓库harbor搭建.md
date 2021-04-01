@@ -9,7 +9,7 @@ tags:
  - Ubuntu
     
 categories:
- - 学习
+  - 记录
 ---
 
 ### 环境配置

@@ -9,7 +9,7 @@ tags:
  - 消息中间件
  
 categories:
-  - 学习
+  - 记录
 ---
 
 # **Ubuntu安装RabbitMQ**

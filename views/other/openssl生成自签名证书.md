@@ -9,7 +9,7 @@ tags:
  - Openssl
     
 categories:
- - 学习
+  - 记录
 ---
 
 ### 生成 CA 根证书密钥

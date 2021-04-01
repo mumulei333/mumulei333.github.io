@@ -9,7 +9,7 @@ tags:
  - 数据库
  
 categories:
- - 学习
+  - 记录
 ---
 
 ## Ubuntu安装Mysql

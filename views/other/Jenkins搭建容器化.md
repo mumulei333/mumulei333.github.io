@@ -9,7 +9,7 @@ tags:
  - Devops
  
 categories:
-  - 学习
+  - 记录
 ---
 
 ### 安装docker

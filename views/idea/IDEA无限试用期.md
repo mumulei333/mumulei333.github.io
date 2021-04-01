@@ -8,7 +8,7 @@ tags:
  - IDEA
  - Mac
 categories:
- - 学习
+  - 记录
 ---
 
 IntelliJIdea ：idea的包名，不同的版本有不同的名称(如: IntelliJIdea2020.2)，idea2020版以后的mac安装路径会多一层JetBrains

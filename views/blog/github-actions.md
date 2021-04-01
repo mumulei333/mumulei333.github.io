@@ -8,7 +8,7 @@ tags:
 - VuePress
 - blog
 categories: 
- - 学习
+ - 记录
 ---
 
 # 使用 GitHub Actions 自动部署博客

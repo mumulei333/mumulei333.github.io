@@ -9,7 +9,7 @@ tags:
  - 网络
     
 categories:
- - 学习
+  - 记录
 ---
 
 # Ubuntu固定内网IP

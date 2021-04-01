@@ -7,7 +7,7 @@ tags:
  - Mac
     
 categories:
- - 学习
+  - 记录
 ---
 
 ### mac上传下载服务器文件

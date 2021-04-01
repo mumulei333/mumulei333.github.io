@@ -9,7 +9,7 @@ tags:
  - Git
     
 categories:
- - 学习
+  - 记录
 ---
 
 转载自[By](http://qiubaiying.vip/2017/02/15/Git%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86/)

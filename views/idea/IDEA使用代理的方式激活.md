@@ -7,7 +7,7 @@ tags:
  - IDEA
 
 categories:
- - 学习
+  - 记录
 ---
 
 ## IDEA使用代理的方式激活

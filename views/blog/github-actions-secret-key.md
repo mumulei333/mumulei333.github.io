@@ -8,7 +8,7 @@ tags:
   - Secret Key
   - blog
 categories:
-  - 学习
+  - 记录
 ---
 
 ## 如何在 GitHub Actions 时使用 secretKey

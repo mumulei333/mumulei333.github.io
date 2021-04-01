@@ -8,7 +8,7 @@ tags:
  - 疑难杂症
  
 categories:
- - 学习
+  - 记录
 ---
 
 ### Jenkins构建异常 Build step 'Execute shell script on remote host using ssh' changed build result to UNSTABLE

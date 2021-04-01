@@ -315,11 +315,11 @@ self.__precacheManifest = [
   },
   {
     "url": "categories/生活/index.html",
-    "revision": "715cb7267c5eddaa6b140d38563ec2e0"
+    "revision": "36d6432c589a7163c2f10f730e4da52b"
   },
   {
     "url": "categories/记录/index.html",
-    "revision": "ba29893d1a2707296f0d3276d3341ab7"
+    "revision": "f2d152aa5e7fa13175669f176f3ca461"
   },
   {
     "url": "categories/记录/page/2/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d8ff80f5dfa025eb1b40f6ac5825836c"
+    "revision": "15197f34440fe9c9744745ed2e85ba5d"
   },
   {
     "url": "mumu_head.jpg",
@@ -355,131 +355,131 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/blog/index.html",
-    "revision": "6501381e06fde75acfbbfbc76f241d3d"
+    "revision": "619297b7708de65e43ba5a41ac874996"
   },
   {
     "url": "tag/Dashboard/index.html",
-    "revision": "b8f281a1d1424e32272555e9935824e8"
+    "revision": "a150cb586f294d607c09155ab5cbc61c"
   },
   {
     "url": "tag/Devops/index.html",
-    "revision": "51c0142757657b1aa15d559e0aa101c0"
+    "revision": "8ee35ede7e0e474afd3f52d22c386edc"
   },
   {
     "url": "tag/Docker/index.html",
-    "revision": "c8f96bfce6e0bd49ae4dae0e587566a5"
+    "revision": "dd6bb3e6d28db4b4757bf3163514b68b"
   },
   {
     "url": "tag/Frp/index.html",
-    "revision": "58e5b3442193f79fd89f2045c97c0c6a"
+    "revision": "f6d4e4ad572ea24dd36f8fc1a6d108f9"
   },
   {
     "url": "tag/Git/index.html",
-    "revision": "6aa7fa43735f03a332a449200389cb02"
+    "revision": "4e3f75d37e763b7781cd10a69bcf365e"
   },
   {
     "url": "tag/Github Actions/index.html",
-    "revision": "0d6d120a627efeb96d69a8d3a86aa532"
+    "revision": "414091217305120ec53679bcdbd13609"
   },
   {
     "url": "tag/Github Pages/index.html",
-    "revision": "6203d4ad4b260d6486d4959d85e70c49"
+    "revision": "5575cc5e7a8b81d6b3a0f77bd87e6530"
   },
   {
     "url": "tag/Github/index.html",
-    "revision": "9fb604dc9af7a03871ff31a9c4d00c9b"
+    "revision": "d4d744545090f3156e4efff8a1b28029"
   },
   {
     "url": "tag/Harbor/index.html",
-    "revision": "09420dd1627eef49544775be40ba67b4"
+    "revision": "a842af783ae30e01a6ea9a065b5e8833"
   },
   {
     "url": "tag/IDEA/index.html",
-    "revision": "9a822fa02be906a4d4eec81168f5f162"
+    "revision": "3d27b0aaafb37c67a5fed4426583b7e5"
   },
   {
     "url": "tag/index.html",
-    "revision": "36e4477e87a4d71037fd102e57701324"
+    "revision": "638ff5ebf21b38a35f9f1d31be298aa2"
   },
   {
     "url": "tag/Jenkins/index.html",
-    "revision": "84dce0b73e024b213d49efe81777dc3e"
+    "revision": "8a92f63051441bab74b6c76686a49224"
   },
   {
     "url": "tag/k8s/index.html",
-    "revision": "425dbd4fecb1fa414bf7c72ab8be0276"
+    "revision": "d92c815e7e058e087fe56fd74b0526e8"
   },
   {
     "url": "tag/Mac/index.html",
-    "revision": "954d7d2df8fd6a3b188c5d397152bcad"
+    "revision": "1302b8853af2bec72c177049e3195269"
   },
   {
     "url": "tag/MongoDB/index.html",
-    "revision": "a155a430604207a4687e9a6888b6898e"
+    "revision": "f88e529c8987a94f612a5eb9bf4edc16"
   },
   {
     "url": "tag/Mysql/index.html",
-    "revision": "feca6d861468496ca8be8f1674869624"
+    "revision": "a1f713ed627c8b959660b1021df5a783"
   },
   {
     "url": "tag/Openssl/index.html",
-    "revision": "d272fe2668c5bf50a4841911213d82ad"
+    "revision": "6eaa232babfa810911455e0f3ae06685"
   },
   {
     "url": "tag/RabbitMq/index.html",
-    "revision": "711e8a95141fecb788dd6ded3c18c0a6"
+    "revision": "103bcf8f42f6d2ab548692887e2329ff"
   },
   {
     "url": "tag/Redis/index.html",
-    "revision": "70edc61171390b0998e6fdc048660662"
+    "revision": "f56350cbc970ac115a4e4e5826a94347"
   },
   {
     "url": "tag/Secret Key/index.html",
-    "revision": "dc41196ee9a6d44501e8c3577a0c3771"
+    "revision": "b7e562efb800c7e73bbde60710f6ca28"
   },
   {
     "url": "tag/SSL证书/index.html",
-    "revision": "0502db782de94258b8e4fdfae6b1cdff"
+    "revision": "ade2b9417709b1c2d134e0ec693e2227"
   },
   {
     "url": "tag/Ubuntu/index.html",
-    "revision": "e06e7998c058a3c81ccf4c30b83e9820"
+    "revision": "34ae0d292fcb9b9ccf14e53879be4e08"
   },
   {
     "url": "tag/VuePress/index.html",
-    "revision": "a5e7a8b3afc8776f7f0fe44fee76894f"
+    "revision": "8fc9f5636cf0cbc3026ba9b447e1c166"
   },
   {
     "url": "tag/开发技巧/index.html",
-    "revision": "9cebab3a1fccea997794dde4d0908b21"
+    "revision": "fedb46a0df8a94165aea4536e1443b65"
   },
   {
     "url": "tag/效率/index.html",
-    "revision": "0644854d74f47eebab9e2e3ad8f37cfb"
+    "revision": "92f3cf0ce12cefe7e67c331af2f37d4f"
   },
   {
     "url": "tag/数据库/index.html",
-    "revision": "4ba16d600e15c8fec6e068ca148cfaf6"
+    "revision": "1ff75de840ae7b884f7cdff671fb3220"
   },
   {
     "url": "tag/无聊/index.html",
-    "revision": "1beee9438f8bbe71f9746f6a6cbcb0e4"
+    "revision": "575897a76dcd786d92a189d731eeeade"
   },
   {
     "url": "tag/消息中间件/index.html",
-    "revision": "9d62cdcffee1a46cc5161a572b193db5"
+    "revision": "22e203af865296c8f83daa1d7dbe1302"
   },
   {
     "url": "tag/疑难杂症/index.html",
-    "revision": "f75c5aed62b681498ec15e8ea886daa6"
+    "revision": "2aeb34d6a1e3ae9c9f657cce256f8b19"
   },
   {
     "url": "tag/终端/index.html",
-    "revision": "1a9cc076e366495f3b9d877f7cb59add"
+    "revision": "812a910c8cebd4f0f88fefa2adeb0a84"
   },
   {
     "url": "tag/网络/index.html",
-    "revision": "518c74d84694d8840ef5fed0f6a56f65"
+    "revision": "1829776602f9e890daac6114bdbf1273"
   },
   {
     "url": "timeline/index.html",

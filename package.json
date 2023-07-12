@@ -3,8 +3,8 @@
   "homepage": "./",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "export NODE_OPTIONS=--openssl-legacy-provider & vuepress dev .",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider & vuepress build .",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev .",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build .",
     "push": "bash scripts/push.sh",
     "deploy": "bash scripts/deploy.sh"
   },

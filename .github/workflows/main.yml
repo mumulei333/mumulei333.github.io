@@ -20,6 +20,7 @@ jobs:
           VALINE_ID: ${{ secrets.VALINE_ID }}
           VALINE_KEY: ${{ secrets.VALINE_KEY }}
         run: |
+          node -v
           npm install
           npm run build
 
